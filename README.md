@@ -266,7 +266,6 @@ výsledkom vašej vlastnej práce a vedomostí.
 Z koreňového priečinka projektu skompilujte program príkazom:
 
 ```bash
-mkdir -p bin
 gcc -std=c17 -o bin/mission -Wall -Wextra src/main.c
 ```
 
@@ -297,11 +296,11 @@ Zadanie je hodnotené **20 bodmi**. Nefunkčný alebo neskompilovateľný progra
 | Oblasť                                                          |   Body |
 |-----------------------------------------------------------------|-------:|
 | Kompilácia, štruktúra projektu a spustiteľnosť                  |      2 |
-| Spracovanie argumentov, `--help` a validácia                    |      4 |
+| Spracovanie argumentov, `--help` a validácia                    |      3 |
 | Správna simulácia dní, spotreby a slnečnej búrky                |      5 |
 | Interaktívne pokračovanie/ukončenie a `--non-interactive` režim |      3 |
 | Záverečná štatistika a správne výsledné stavy                   |      3 |
-| Rozdelenie programu do funkcií, čitateľnosť a komunikácia chýb  |      3 |
+| Rozdelenie programu do funkcií, čitateľnosť a komunikácia chýb  |      4 |
 | **Spolu**                                                       | **20** |
 
 Pri hodnotení sa bude prihliadať aj na:
