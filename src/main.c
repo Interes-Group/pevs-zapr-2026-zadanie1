@@ -1,10 +1,15 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 void print_help() {
     printf("Usage: program [options]\n");
     printf("Options:\n");
     printf("  -h, --help      Display this help message\n");
+}
+
+int get_random_number(int min, int max) {
+    return rand() % (max - min + 1) + min;
 }
 
 int main(int argc, char *argv[]) {
