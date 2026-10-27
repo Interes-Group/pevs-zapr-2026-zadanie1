@@ -10,7 +10,7 @@ void print_help() {
 int main(int argc, char *argv[]) {
     // spracovanie argumentov podľa návodu https://zapr.interes.group/guides/program_arguments/
     int help = 0;
-    if (argc > 1) {
+    if (argc <= 1) {
         print_help();
         return 0;
     }
